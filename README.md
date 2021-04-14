@@ -1,28 +1,47 @@
-# Adonis API application
+# AdonisAPI - API Simples usando AdonisJS
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+# Requisitos iniciais
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+Como pré-requisitos para funcionamento do projeto, é necessário ter instalado em sua máquina:
 
-## Setup
+* [NodeJS](https://nodejs.org/en/)
+* [Mysql Server](https://dev.mysql.com/downloads/mysql/)
 
-Use the adonis command to install the blueprint
 
-```bash
-adonis new yardstick --api-only
-```
+Para executar o projeto siga as instruções abaixo:
 
-or manually clone the repo and then run `npm install`.
+ 1. Na pasta do projeto, abra um terminal de sua preferência e execute o comando `npm install` para baixar as dependências.
 
+ 2. Instale o mysql e crie uma base de dados chamada `adonisapi`.
+
+ 3. Utilize o usuário padrão `root` com `senha em branco` ou crie um usuário e senha e altere as linhas 11 e 12 do arquivo `.env`, respectivamente.
 
 ### Migrations
 
-Run the following command to run startup migrations.
+Execute o comando abaixo para criação das tabelas no banco de dados usando migrations
 
-```js
+```javascript
 adonis migration:run
 ```
+
+## Instalando as dependências
+
+Execute o comando abaixo instalar as dependências do projeto.
+
+```javascript
+adonis migration:run
+```
+
+## Servindo a aplicação
+
+Execute o comando abaixo servir a aplicação.
+
+```javascript
+adonis serve --dev
+```
+
+## Consumindo a API
+
+Para consumir a API recomento que utilize o [Insomnia](https://insomnia.rest/download).
+
+Após baixar e instalar na sua máquina, vá em `Preferences` -> `Data` -> `Import Data` -> `From File`, selecione o arquivo `AdonisAPI.json` que está contido no projeto e clique em `Import`.
