@@ -1,5 +1,12 @@
-# AdonisAPI - API Simples usando AdonisJS
+<h1> AdonisAPI - API Simples usando AdonisJS </h1>
 
+<p align="center">
+  <img src="https://i.ibb.co/4pZnZZW/adonisjs.png" alt="adonisjs"/>
+  <img src="https://i.ibb.co/0q81Mjg/nodejs.png" alt="nodejs" width="30%"/>
+  <img src="https://i.ibb.co/nm1WHRs/mysql.png" alt="mysql" width="20%"/>
+</p>
+
+<br><br><br>
 # Requisitos iniciais
 
 Como pré-requisitos para funcionamento do projeto, é necessário ter instalado em sua máquina:
